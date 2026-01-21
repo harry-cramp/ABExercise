@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.itemPage {
+  display: flex;
+  flex-direction: row;
+}
+
+.itemInfo {
+  margin-left: 24px;
+}
+
+.itemTitle {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.itemQuantity {
+  line-height: 24px;
+}
+
+.itemImage {
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 1.5em;
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.itemBuyButtonDisabled {
+	background-color: #2A2A2A;
+  cursor: not-allowed;
+}
