@@ -4,4 +4,4 @@
 cd server && go build && ./abexercise &
 
 # run web app
-cd web && npm run dev
+cd web && npm install && npm run dev
