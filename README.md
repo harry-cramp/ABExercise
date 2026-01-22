@@ -28,6 +28,7 @@ As a further improvement to this service I would decouple the server from the da
 
    ```bash
    ./start.sh
+   ```
 
 This should run both client and server, accessible via http://localhost:5173
 
